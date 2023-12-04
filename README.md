@@ -14,7 +14,7 @@ pnpm install
 bun install
 ```
 
-First, run the development server:
+Second, run the development server:
 
 ```bash
 npm run dev
@@ -47,7 +47,7 @@ The `index.js` file serves as the entry point for the application. It imports va
   - `dummyChats`: An object mapping user IDs to arrays of dummy chat messages.
 
 - **Event Handling:**
-  - `handleUserSelect`: Updates the selected user and sets the chat page to be visible.
+  - `handleUserSelect`: sets the chat page to be visible.
   - `handleBackButtonClick`: Hides the chat page.
 
 - **Components:**
@@ -70,7 +70,7 @@ The `Sidebar.js` component is responsible for rendering the sidebar containing a
   - `setSelectedUser`: Function to update the selected user.
 
 - **Event Handling:**
-  - `handleUserSelect`: Calls the parent's `onUserSelect` and updates the selected user.
+  - `handleUserSelect`: Calls the parent's `onUserSelect` and sets the chat page to be visible.
 
 - **HTML Structure:**
   - The component renders a list of users (`UserChat` components) and includes additional UI elements for chat-related actions.
