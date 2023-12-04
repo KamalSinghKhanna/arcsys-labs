@@ -22,7 +22,7 @@ const ChatsPage = ({
               className="w-10 h-10 cursor-pointer"
             />
             <span className="text-white font-open-sans text-sm font-semibold leading-5">
-              Caressa Jessalin
+              {selectedUser.name}
             </span>
           </div>
           <div className="flex items-center gap-6">
