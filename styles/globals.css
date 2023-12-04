@@ -9,7 +9,9 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
-/* width */
+
+@media screen and (min-width:756px) {
+  /* width */
 ::-webkit-scrollbar {
   width: 5px;
 }
@@ -27,4 +29,5 @@ body{
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
+}
 }
