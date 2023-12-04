@@ -52,8 +52,8 @@ const Navbar = () => {
             <span>Edit</span>
           </div>
         </div>
-        <button className="w-28 md:w-44 h-10 rounded-full bg-[#F3AE9F]">
-          <span className="text-[#050505] text-lg">Login</span>
+        <button className="w-28 md:w-44 h-10 rounded-full bg-[#F3AE9F] hover:bg-transparent text-[#050505] hover:text-[#F3AE9F] hover:border border-[#F3AE9F]">
+          <span className="text-lg">Login</span>
         </button>
       </div>
 
@@ -69,8 +69,8 @@ const Navbar = () => {
           />
         </div>
         <div className="flex items-center gap-3">
-          <button className="w-28 h-10 rounded-full bg-[#F3AE9F]">
-            <span className="text-[#050505] text-lg">Login</span>
+          <button className="w-28 h-10 rounded-full bg-[#F3AE9F] hover:bg-transparent text-[#050505] hover:text-[#F3AE9F] hover:border border-[#F3AE9F]">
+            <span className="text-lg">Login</span>
           </button>
           {!showMenu ? (
             <Image

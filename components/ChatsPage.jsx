@@ -70,13 +70,15 @@ const ChatsPage = ({
             placeholder="Message..."
             className="flex bg-[#2F2F2F] placeholder:text-[#7F8781] pl-5 rounded-full w-[95%] text-white outline-none"
           />
-          <Image
-            src={"/chat.svg"}
-            alt="chat"
-            width={200}
-            height={200}
-            className="w-12 h-12 cursor-pointer"
-          />
+          <div className="p-3 bg-[#F3AE9F] rounded-full hover:bg-[#e6826c]">
+            <Image
+              src={"/send.svg"}
+              alt="chat"
+              width={200}
+              height={200}
+              className="w-6 h-6 cursor-pointer"
+            />
+          </div>
         </div>
       </div>
 
@@ -144,13 +146,15 @@ const ChatsPage = ({
               placeholder="Message..."
               className="flex bg-[#2F2F2F] placeholder:text-[#7F8781] pl-5 rounded-full w-[95%] text-white outline-none"
             />
-            <Image
-              src={"/chat.svg"}
-              alt="chat"
-              width={200}
-              height={200}
-              className="w-12 h-12 cursor-pointer"
-            />
+            <div className="p-2.5 bg-[#F3AE9F] rounded-full">
+              <Image
+                src={"/send.svg"}
+                alt="chat"
+                width={200}
+                height={200}
+                className="w-6 h-6 cursor-pointer"
+              />
+            </div>
           </div>
         </div>
       )}
