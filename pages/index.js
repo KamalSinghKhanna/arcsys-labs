@@ -1,8 +1,8 @@
 import Head from "next/head";
-import Navbar from "../component/Navbar";
-import Sidebar from "../component/Sidebar";
-import Footer from "../component/Footer";
-import ChatsPage from "../component/ChatsPage";
+import Navbar from "./component/Navbar";
+import Sidebar from "./component/Sidebar";
+import Footer from "./component/Footer";
+import ChatsPage from "./component/ChatsPage";
 import { useState } from "react";
 export default function Home() {
   const dummyUsers = [
