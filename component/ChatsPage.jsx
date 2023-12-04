@@ -11,7 +11,7 @@ const ChatsPage = ({
   };
   return (
     <>
-      <div className="w-full bg-[#181818] rounded-xl md:block hidden">
+      <div className="w-full bg-[#181818] rounded-xl md:flex flex-col justify-between hidden">
         <div className="bg-[#2F2F2F] w-full flex justify-between px-7 py-2 rounded-b-none rounded-lg">
           <div className="flex items-center gap-3">
             <Image
@@ -52,7 +52,7 @@ const ChatsPage = ({
             </div>
           </div>
         </div>
-        <div className="h-[70%] overflow-y-scroll mb-6">
+        <div className="h-full overflow-y-scroll mb-4">
           {selectedUser && (
             <div>
               {chats &&
@@ -64,7 +64,7 @@ const ChatsPage = ({
             </div>
           )}
         </div>
-        <div className="flex px-8 pb-2 w-full gap-3">
+        <div className="flex px-8 mb-4 w-full gap-3">
           <input
             type="text"
             placeholder="Message..."

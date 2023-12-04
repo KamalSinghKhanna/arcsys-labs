@@ -35,7 +35,6 @@ export default function Home() {
   const [selectedUser, setSelectedUser] = useState(dummyUsers[0]);
   const [isChatPageVisible, setIsChatPageVisible] = useState(false);
   const handleUserSelect = (user) => {
-    setSelectedUser(user);
     setIsChatPageVisible(true);
   };
   const handleBackButtonClick = () => {
