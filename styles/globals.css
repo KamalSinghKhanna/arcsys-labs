@@ -9,22 +9,29 @@ body{
   padding: 0;
   box-sizing: border-box;
 }
-/* width */
-::-webkit-scrollbar {
+
+
+/* Initial state - scrollbar hidden for all elements */
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Hover state - show scrollbar for all elements */
+*:hover::-webkit-scrollbar {
   width: 5px;
 }
 
-/* Track */
-::-webkit-scrollbar-track {
+/* Track for all elements */
+*::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
 
-/* Handle */
-::-webkit-scrollbar-thumb {
+/* Handle for all elements */
+*::-webkit-scrollbar-thumb {
   background: #888;
 }
 
-/* Handle on hover */
-::-webkit-scrollbar-thumb:hover {
+/* Handle on hover for all elements */
+*::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
