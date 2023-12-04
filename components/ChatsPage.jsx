@@ -93,7 +93,7 @@ const ChatsPage = ({
                 className="w-9 h-9 cursor-pointer"
               />
               <span className="text-white font-open-sans text-sm font-semibold leading-5">
-                Caressa Jessalin
+                {selectedUser.name}
               </span>
             </div>
             <div
